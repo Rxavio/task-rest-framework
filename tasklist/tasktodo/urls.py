@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
 	path('', views.TasktodoOverview, name="tasktodo-overview"),
+    path('task-list/', views.taskList, name="task-list"),
 ]
